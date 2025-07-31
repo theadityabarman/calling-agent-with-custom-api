@@ -99,7 +99,7 @@ def speak(text, filename="/var/lib/asterisk/sounds/asterisk_response1.wav"):
         tts_model.tts_to_file(
             text=cleaned_text,
             file_path="/opt/ai/audio/tmp.wav",
-            speaker_wav="/opt/ai/audio/ravi.wav",
+            speaker_wav="/opt/ai/audio/aditya.wav",
             language="en"
         )
     except Exception as e:
